@@ -1,0 +1,14 @@
+[project]
+name = "wakewordattempt2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "cuda-python>=13.0.3",
+    "hf>=1.1.0",
+    "numpy<2",
+    "openwakeword>=0.6.0",
+    "pyaudio>=0.2.14",
+    "transformers>=4.57.1",
+]
